@@ -11,8 +11,8 @@ Built with [Next.js](https://nextjs.org), this frontend interfaces with a backen
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/handwrittenocr-frontend.git
-cd handwrittenocr-frontend
+git clone https://github.com/mhenryaditya/HandwrittenOCR_Frontend.git
+cd HandwrittenOCR_Frontend
 ```
 
 ### 2. Install dependencies

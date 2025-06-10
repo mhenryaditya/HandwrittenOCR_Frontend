@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HandwrittenOCR Frontend
 
-## Getting Started
+## ✨ Introduction
+This is the frontend application for **HandwrittenOCR**, a web-based Optical Character Recognition system. It allows users to upload handwritten images and receive extracted text in return, including words, full sentences, and alphanumeric strings (e.g., `ADjh90K7`).
 
-First, run the development server:
+Built with [Next.js](https://nextjs.org), this frontend interfaces with a backend API (Laravel or Flask) for processing and OCR prediction.
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/handwrittenocr-frontend.git
+cd handwrittenocr-frontend
+```
+
+### 2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Create `.env` file
+Create a `.env` file in the root directory with the following content:
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+```
+Replace the value with the actual backend API endpoint for HandwrittenOCR Laravel Backend.
+
+### 4. Start development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see your app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Learn More About Next.js
 
-## Learn More
+To learn more about Next.js, check out the following resources:
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) – learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) – an interactive tutorial for learning Next.js step-by-step.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ☁️ Deploy on Vercel
 
-## Deploy on Vercel
+The easiest way to deploy your Next.js app is via [Vercel](https://vercel.com/new). Follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your project to GitHub.
+2. Visit [https://vercel.com/new](https://vercel.com/new) and import the repo.
+3. Set your environment variable (`NEXT_PUBLIC_API_URL`) in Vercel dashboard.
+4. Deploy and enjoy.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For more info, check out the [Next.js deployment guide](https://nextjs.org/docs/app/building-your-application/deploying).
+
+---
+
+Happy coding! ✍️📸
